@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will learn and use vim.  Based on my research, it is probably the most versatile across operating systems and will become bery useful once I get over the learning curve.
 
 --
 
@@ -89,6 +89,6 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I've used Sublime for years and will continue to use it.  I enjoy the colored formatting based on file program type.  I can use the command palette to call Git commands add, branch, commit, push, and pull.  Ctrl + d  can extend the selection to include the next occurence of the current selection.  Sublime color themes can be altered using the package control feature.
 
  
