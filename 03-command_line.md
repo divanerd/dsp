@@ -56,7 +56,7 @@ What do the following commands do:
 
 > > `ls` - **list directory contents of files and directories**
 
-    `ls -a` - **list contents including hidden files starting with '."**
+`ls -a` - **list contents including hidden files starting with '."**
 
 `ls -l` - **list contents using the long listing format**
 
@@ -91,5 +91,5 @@ What does `xargs` do? Give an example of how to use it.
 
 > > `xargs` builds and executes command lines from stanard input.  For exampple, if you have a program that outputs filesnames on standard out and you need to use them as individual arguements for a command, you'd use xargs.
 
-ie: find /etc -name ".conf" | xargs ls -l
+    ie: find /etc -name ".conf" | xargs ls -l
 
