@@ -20,7 +20,8 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > show current working directory path - **pwd**
+> > 
+show current working directory path - **pwd**
 
 creating a directory - **mkdir**
 
@@ -53,13 +54,19 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > *`ls` - **list directory contents of files and directories** 
-*`ls -a` - **list contents including hidden files starting with '."** 
-*`ls -l` - **list contents using the long listing format** 
-*`ls -lh` - **list contents using the long listing format with human readable file size** 
-*`ls -lah` - **list contents using the long format, include hidden files with human readable file size** 
-*`ls -t` - **list contents sorted by time and date** 
-*`ls -Glp` - **list contents in long format including owner info, with long listing format, append '/' indicator for directories** 
+> > `ls` - **list directory contents of files and directories**
+
+`ls -a` - **list contents including hidden files starting with '."**
+
+`ls -l` - **list contents using the long listing format**
+
+`ls -lh` - **list contents using the long listing format with human readable file size**
+
+`ls -lah` - **list contents using the long format, include hidden files with human readable file size**
+
+`ls -t` - **list contents sorted by time and date**
+
+`ls -Glp` - **list contents in long format including owner info, with long listing format, append '/' indicator for directories** 
 
 ---
 
@@ -68,9 +75,13 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > > ls -d - **list contents displaying only directories** 
+
 ls -p - **list contents displaying directories with '/'** 
+
 ls -1 - **list contents displaying each entry on a line** 
+
 ls -u - **lists contents displaying files by the file access time** 
+
 ls -R - **list contents displaying subdirectories as well** 
 ---
 
