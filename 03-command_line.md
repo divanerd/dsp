@@ -56,7 +56,7 @@ What do the following commands do:
 
 > > `ls` - **list directory contents of files and directories**
 
-`ls -a` - **list contents including hidden files starting with '."**
+    `ls -a` - **list contents including hidden files starting with '."**
 
 `ls -l` - **list contents using the long listing format**
 
