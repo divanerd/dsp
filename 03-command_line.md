@@ -12,14 +12,24 @@ Here's a list of items with which you should be familiar:
 * creating a directory
 * deleting a directory
 * creating a file using `touch` command
-* deleting a file
+* deleting a file 
 * renaming a file
 * listing hidden files
-* copying a file from one directory to another
+* copying a file from one directory to another 
+
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > * show current working directory path - **pwd**
+* creating a directory - **mkdir**
+* deleting a directory - **rmdir**
+* creating a file using `touch` command - **touch**
+* deleting a file - **rm**
+* renaming a file - **rename**
+* listing hidden files - **ls -a**
+* copying a file from one directory to another - **cp**
+* changing a directory - **cd**
+* moving a file to another folder or directory - **mv**
 
 ---
 
