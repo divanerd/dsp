@@ -45,13 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > `ls` - **list directory contents of files and directories** 
-`ls -a` - **list contents including hidden files starting with '."** 
-`ls -l` - **list contents using the long listing format** 
-`ls -lh` - **list contents using the long listing format with human readable file size** 
-`ls -lah` - **list contents using the long format, include hidden files with human readable file size** 
-`ls -t` - **list contents sorted by time and date** 
-`ls -Glp` - **list contents in long format including owner info, with long listing format, append '/' indicator for directories** 
+> > *`ls` - **list directory contents of files and directories** 
+*`ls -a` - **list contents including hidden files starting with '."** 
+*`ls -l` - **list contents using the long listing format** 
+*`ls -lh` - **list contents using the long listing format with human readable file size** 
+*`ls -lah` - **list contents using the long format, include hidden files with human readable file size** 
+*`ls -t` - **list contents sorted by time and date** 
+*`ls -Glp` - **list contents in long format including owner info, with long listing format, append '/' indicator for directories** 
 
 ---
 
