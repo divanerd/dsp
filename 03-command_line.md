@@ -45,13 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > `ls` - **list directory contents of files and directories**
-`ls -a` - **list contents including hidden files starting with '."**
-`ls -l` - **list contents using the long listing format**
-`ls -lh` - **list contents using the long listing format with human readable file size**
-`ls -lah` - **list contents using the long format, include hidden files with human readable file size**
-`ls -t` - **list contents sorted by time and date**
-`ls -Glp` - **list contents in long format including owner info, with long listing format, append '/' indicator for directories**
+> > `ls` - **list directory contents of files and directories** 
+`ls -a` - **list contents including hidden files starting with '."** 
+`ls -l` - **list contents using the long listing format** 
+`ls -lh` - **list contents using the long listing format with human readable file size** 
+`ls -lah` - **list contents using the long format, include hidden files with human readable file size** 
+`ls -t` - **list contents sorted by time and date** 
+`ls -Glp` - **list contents in long format including owner info, with long listing format, append '/' indicator for directories** 
 
 ---
 
@@ -59,11 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > ls -d - **list contents displaying only directories**
-ls -p - **list contents displaying directories with '/'**
-ls -1 - **list contents displaying each entry on a line**
-ls -u - **lists contents displaying files by the file access time**
-ls -R - **list contents displaying subdirectories as well**
+> > ls -d - **list contents displaying only directories** 
+ls -p - **list contents displaying directories with '/'** 
+ls -1 - **list contents displaying each entry on a line** 
+ls -u - **lists contents displaying files by the file access time** 
+ls -R - **list contents displaying subdirectories as well** 
 ---
 
 ### Q4.  Xargs   
@@ -71,6 +71,6 @@ ls -R - **list contents displaying subdirectories as well**
 What does `xargs` do? Give an example of how to use it.
 
 > > `xargs` builds and executes command lines from stanard input.  For exampple, if you have a program that outputs filesnames on standard out and you need to use them as individual arguements for a command, you'd use xargs.
----
+
 ie: find /etc -name ".conf" | xargs ls -l
----
+
