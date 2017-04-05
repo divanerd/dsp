@@ -57,8 +57,22 @@ ie: sorted(student_tuples, key=lambda student: student[2])   # sort by age
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> We can write map and filter patterns more concisely using a list comprehension.
+The bracket operators indicate that we are constructing a new list. The expression inside the brackets specifies the elements of the list, for clause indicates what sequence we are traversing. 
 
+**map**
+def capitalizeall(t):
+   return [s.capitalize() for s in t]
+
+**filter**
+def findOnlyCapitals(t)
+   return [s for s in t if s.isupper()]
+
+**set comprehension**
+s = { x for x in range(10) }
+
+**dictionary comprehension**
+d = {k:v for k, v in iterable}
 ---
 
 ### Complete the following problems by editing the files below:
