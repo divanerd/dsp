@@ -21,13 +21,13 @@ How are Python lists and tuples similar and different? Which will work as keys i
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
 >> **Sets** are *Unordered collections of unique elements* --> ie: all words used in a speech
-**Lists** are *ordered collections of elements* --> ie: telephone number respository
+>>**Lists** are *ordered collections of elements* --> ie: telephone number respository
 
-#List
+>># *List*
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
 fruits.count('apple')
 
-#Set
+# *Set*
 engineers = Set(['John', 'Jane', 'Jack', 'Janice'])
 programmers = Set(['Jack', 'Sam', 'Susan', 'Janice'])
 managers = Set(['Jane', 'Jack', 'Susan', 'Zack'])
