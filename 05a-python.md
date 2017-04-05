@@ -48,6 +48,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 ie: getFirst = lambda x: x[0]
 
 ie: sorted(student_tuples, key=lambda student: student[2])   # sort by age
+
 [('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
 
 ---
