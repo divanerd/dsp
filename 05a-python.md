@@ -28,6 +28,7 @@ How are Python lists and sets similar and different? Give examples of using both
    fruits.count('apple')
 
 2) **Set**
+
    engineers = Set(['John', 'Jane', 'Jack', 'Janice'])
    programmers = Set(['Jack', 'Sam', 'Susan', 'Janice'])
    managers = Set(['Jane', 'Jack', 'Susan', 'Zack'])
