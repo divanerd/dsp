@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Tuples are immutable, and usually contain a heterogeneous sequence of elements that are accessed via unpacking or indexing. Lists are mutable, and their elements are usually homogeneous and are accessed by iterating over the list.  Tuples can be used as keys if they contain only strings, numbers, or tuples; if a tuple contains any mutable object either directly or indirectly, it cannot be used as a key. You can’t use lists as keys, since lists can be modified in place using index assignments, slice assignments, or methods like append() and extend().
 
 ---
 
@@ -20,7 +20,22 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> **Sets** are *Unordered collections of unique elements* --> ie: all words used in a speech.  **Lists** are *ordered collections of elements* --> ie: telephone number respository
+
+1) **List**
+
+   fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+   fruits.count('apple')
+
+2) **Set**
+
+   engineers = Set(['John', 'Jane', 'Jack', 'Janice'])
+   programmers = Set(['Jack', 'Sam', 'Susan', 'Janice'])
+   managers = Set(['Jane', 'Jack', 'Susan', 'Zack'])
+   employees = engineers | programmers | managers  
+
+
+Sets allows you to do operations such as intersection, union, difference, and symmetric difference.  Sets doesn't allow indexing and are implemented on hash tables.  Lists are variable-length arrays. In lists the elements are accessed by indices.  When you want to store some values which you'll be iterating over, Python's list constructs are slightly faster. However, if you'll be storing (unique) values in order to check for their existence, then sets are significantly faster (constant time not based on size of set).
 
 ---
 
@@ -28,7 +43,13 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> A lambda function is a function that takes any number of arguments and returns the value of a single expression. lambda functions can't contain commands, and they can not contain more than one expression. lambda is a quick way of making functions.
+
+ie: getFirst = lambda x: x[0]
+
+ie: sorted(student_tuples, key=lambda student: student[2])   # sort by age
+
+[('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
 
 ---
 
@@ -36,7 +57,22 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> We can write map and filter patterns more concisely using a list comprehension.
+The bracket operators indicate that we are constructing a new list. The expression inside the brackets specifies the elements of the list, for clause indicates what sequence we are traversing. 
+
+**map**
+def capitalizeall(t):
+   return [s.capitalize() for s in t]
+
+**filter**
+def findOnlyCapitals(t)
+   return [s for s in t if s.isupper()]
+
+**set comprehension**
+s = { x for x in range(10) }
+
+**dictionary comprehension**
+d = {k:v for k, v in iterable}
 
 ---
 
